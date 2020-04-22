@@ -55,7 +55,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+    CameraGo
 
 PRODUCT_PACKAGES += \
     libshim_megvii
