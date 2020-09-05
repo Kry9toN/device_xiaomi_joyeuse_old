@@ -1,7 +1,5 @@
 # Device Tree for Redmi Note 9 Pro (joyeuse)
 
-- Can be unified miatol device
-
 ## Spec Sheet
 
 | Feature                 | Specification                     |
