@@ -166,6 +166,9 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-09-01
 
+# SurfaceFlinger
+TARGET_USE_AOSP_SURFACEFLINGER := true
+
 # Build Enforce only user variant
 ifneq ($(TARGET_BUILD_VARIANT),user)
    BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
