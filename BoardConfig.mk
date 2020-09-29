@@ -77,6 +77,7 @@ TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CONFIG := joyeuse_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/joyeuse
 TARGET_KERNEL_CLANG_VERSION := proton
+TARGET_KERNEL_LLVM_BINUTILS := true
 
 BOARD_KERNEL_CMDLINE += androidboot.console=ttyMSM0
 BOARD_KERNEL_CMDLINE += androidboot.hardware=qcom
