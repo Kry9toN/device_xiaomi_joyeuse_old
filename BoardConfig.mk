@@ -103,8 +103,8 @@ DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 #    joyeuse
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_joyeuse
-TARGET_RECOVERY_DEVICE_MODULES := libinit_joyeuse
+# TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_joyeuse
+# TARGET_RECOVERY_DEVICE_MODULES := libinit_joyeuse
 
 # Media
 TARGET_USES_ION := true
