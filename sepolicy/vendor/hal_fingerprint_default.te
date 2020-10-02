@@ -1,12 +1,6 @@
-allow hal_fingerprint_default vendor_system_prop:property_service { set };
-allow hal_fingerprint_default sysfs_fps_attr:file { write };
-allow hal_fingerprint_default sysfs_fps_attr:file { open };
 allow hal_fingerprint_default tee_device:chr_file { ioctl };
 allow hal_fingerprint_default vendor_data_file:file { getattr };
 allow hal_fingerprint_default vendor_data_file:file { read };
-allow hal_fingerprint_default sysfs_fps_attr:file { write };
-allow hal_fingerprint_default sysfs_fps_attr:file { open };
-allow hal_fingerprint_default sysfs_fps_attr:file { read };
 allow hal_fingerprint_default vendor_data_file:dir { write };
 allow hal_fingerprint_default vendor_data_file:dir { add_name };
 allow hal_fingerprint_default vendor_data_file:file { create };
