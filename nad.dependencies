@@ -7,12 +7,6 @@
   },
   {
     "remote": "github",
-    "repository": "kdrag0n/proton-clang",
-    "target_path": "prebuilts/clang/host/linux-x86/clang-proton",
-    "branch": "master"
-  },
-  {
-    "remote": "github",
     "repository": "Kry9toN/vendor_xiaomi_joyeuse",
     "target_path": "vendor/xiaomi",
     "branch": "new"
