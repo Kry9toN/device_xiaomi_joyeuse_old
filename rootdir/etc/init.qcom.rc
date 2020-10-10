@@ -1010,7 +1010,6 @@ service esepmdaemon /system/vendor/bin/esepmdaemon
 
 on charger
     setprop persist.sys.usb.config mass_storage
-    load_system_props
 
     # Enable EAS
     write /proc/sys/kernel/sched_energy_aware 1
