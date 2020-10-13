@@ -30,7 +30,7 @@ AUDIO_FEATURE_ENABLED_PROXY_DEVICE := true
 #AUDIO_FEATURE_ENABLED_AHAL_EXT := true
 
 # Audio policy
-USE_CUSTOM_AUDIO_POLICY := 1
+USE_CUSTOM_AUDIO_POLICY := 0
 USE_XML_AUDIO_POLICY_CONF := 1
 
 # Bluetooth
@@ -179,7 +179,7 @@ ifneq ($(TARGET_BUILD_VARIANT),user)
 endif
 
 # Sepolicy
-include device/qcom/sepolicy/sepolicy.mk
+#include device/qcom/sepolicy/sepolicy.mk
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public

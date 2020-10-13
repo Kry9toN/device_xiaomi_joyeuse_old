@@ -1,3 +1,0 @@
-allow init firmware_file:filesystem { getattr };
-allow init vendor_file:file { execute };
-allow init init:qipcrtr_socket { create };
