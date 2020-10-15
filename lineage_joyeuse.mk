@@ -7,6 +7,8 @@
 $(call inherit-product, device/xiaomi/joyeuse/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+SAKURA_OFFICIAL := true
+
 PRODUCT_NAME := lineage_joyeuse
 PRODUCT_DEVICE := joyeuse
 PRODUCT_BRAND := Xiaomi
