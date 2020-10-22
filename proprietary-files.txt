@@ -249,7 +249,6 @@ vendor/bin/hw/android.hardware.keymaster@4.0-service-qti|de6c78c439d70a4fdd133b3
 vendor/bin/hw/android.hardware.media.omx@1.0-service|28ecbd1ce50066bc0bb992f453d6ed9600e3a887
 vendor/bin/hw/android.hardware.memtrack@1.0-service|1df5ba6340a70e01de5016a1b1cfeffc235a9c1c
 vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-qti|25ff1c0f9f99af0dc249d01af15fac079c87a177
-vendor/bin/hw/android.hardware.thermal@1.0-service|60769dbf47658907926d4e407ff64a7570eba500
 vendor/bin/hw/android.hardware.usb@1.0-service|fb1c1ae07d406b2532bf547a91aaae2fe53415c9
 vendor/bin/hw/qcrild|4c0b6251a635c8f4772501fb8242a34c9c05bbfd
 vendor/bin/hw/vendor.display.color@1.0-service|8646c74c5b19e6d5086d7a4f83e0757610d18f3f
@@ -403,7 +402,6 @@ vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc|c8999fb1bccbef81e6
 vendor/etc/init/android.hardware.media.omx@1.0-service.rc|6878cbc63ac6318f06fe7b804c374550f8e67381
 vendor/etc/init/android.hardware.memtrack@1.0-service.rc|97170c1b52807f07c7ed69468b36dec08860e164
 vendor/etc/init/android.hardware.neuralnetworks@1.2-service-qti.rc|db9900f3a9d88f2f207c1a86ec6184f32551ab39
-vendor/etc/init/android.hardware.thermal@1.0-service.rc|83a76be56b9b0843ff3f2c06186c63156a459acb
 vendor/etc/init/android.hardware.usb@1.0-service.rc|2981a5248a0736d882a0b6ac24dd8c2d80878f77
 vendor/etc/init/cnd.rc|ff205cff8e00ec6805fd1e19f3ca6ff86700cbb6
 vendor/etc/init/dataadpl.rc|cd4907d9bfd438fe5f5c86f5d6cec590ac0bac2a
