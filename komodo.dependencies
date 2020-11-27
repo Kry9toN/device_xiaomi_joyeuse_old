@@ -3,7 +3,7 @@
     "remote": "github",
     "repository": "Jayus-Kranul/kernel_xiaomi_sm6250",
     "target_path": "kernel/xiaomi/joyeuse",
-    "branch": "10"
+    "branch": "rebase"
   },
   {
     "remote": "github",
