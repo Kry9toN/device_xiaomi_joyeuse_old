@@ -979,15 +979,6 @@
         </interface>
     </hal>
     <hal format="hidl">
-        <name>vendor.nxp.hardware.nfc</name>
-        <transport>hwbinder</transport>
-        <version>1.1</version>
-        <interface>
-            <name>INqNfc</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
         <name>vendor.xiaomi.hardware.vsimapp</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
